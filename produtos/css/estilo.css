@@ -1,0 +1,58 @@
+header{
+    background-color: #42436c;
+    padding: 15px;
+}
+
+header h1{
+    color: aliceblue;
+}
+
+.title{
+    padding: 10px;
+    background-color: #42436c;
+    color: aliceblue;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.container{
+    border: 2px solid #42436c; 
+    width: 30%;
+    margin:auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#distancia:hover, #tempo:hover{
+    background-color: #7a7ba7;
+    
+
+}
+
+
+#Velocidade:hover{
+    background-color: #7a7ba7;
+
+}
+
+
+.container input{
+    margin-bottom: 15px;
+    border: 1px solid #42436c;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.btn-calculo{
+    margin-bottom: 15px;
+    margin-left: 10px;
+
+}
+
+.btn-calculo .btn{
+    margin-right: 10px;
+}
